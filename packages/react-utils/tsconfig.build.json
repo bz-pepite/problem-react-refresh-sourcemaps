@@ -1,0 +1,17 @@
+{
+    "extends": "../../tsconfig.vite.json",
+    "compilerOptions": {
+        "outDir": "./dist-types",
+        "rootDir": "src",
+        "composite": false
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        // "src/**/*.spec.ts",
+        // "build",
+        // "dist"
+    ]
+}

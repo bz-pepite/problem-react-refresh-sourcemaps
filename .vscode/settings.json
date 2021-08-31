@@ -1,0 +1,7 @@
+{
+    "typescript.tsdk": "common/temp/node_modules/typescript/lib",
+    "files.associations": {
+        "rush.json": "jsonc",
+        "**/rush/*.json": "jsonc"
+    }
+}
